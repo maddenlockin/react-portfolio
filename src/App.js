@@ -3,6 +3,7 @@ import React from "react";
 import Experience from './Components/Experience';
 import Header from './Components/Header';
 import Projects from './Components/Projects';
+import TechStack from './Components/TechStack';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       </header>
       <Projects />
       <Experience />
+      <TechStack />
     </div>
   );
 }
